@@ -1,0 +1,1 @@
+alert("May I take your hat, sir?");
