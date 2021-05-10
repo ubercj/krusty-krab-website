@@ -9,7 +9,7 @@ function createReservations() {
   
   heading.textContent = "Table for Hommina?"
 
-  image.src = "../assets/images/violin.jpeg";
+  image.src = "assets/images/violin.jpeg";
   image.alt = "The world's smallest violin."
   image.classList.add("feature-image");
 

@@ -4,7 +4,7 @@ function createSpecials() {
 
   heading.textContent = "Run for your lives! It's The Appetizer!!"
 
-  image.src = "../assets/images/appetizer_monster.jpg"
+  image.src = "assets/images/appetizer_monster.jpg"
   image.alt = "The appetizer monster."
   image.classList.add("feature-image");
 

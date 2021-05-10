@@ -46,21 +46,21 @@ function createMenu() {
   }
 
   item1Name.textContent = "Krabby Newberg";
-  item1Photo.src = "../assets/images/krabby_newburg.jpg";
+  item1Photo.src = "assets/images/krabby_newburg.jpg";
   item1Button.addEventListener("click", () => {
     let desc = "From our menu tonight, might I recommend the Krabby Newburg? We take the finest cuts of aged, imported kelp, stuff them with herbs from our garden, wrap them in parchment with our award-winning shallot tapenade, slow-roast them for six hours in our wood-fired, clay-filled oven, or kiva, and serve them with a garnish of wilted coral on a mahogany plank."
     createModal(desc);
   })
 
   item2Name.textContent = "Krusty Krab Pizza";
-  item2Photo.src = "../assets/images/krusty_krab_pizza.jpg";
+  item2Photo.src = "assets/images/krusty_krab_pizza.jpg";
   item2Button.addEventListener("click", () => {
     let desc = "The Krusty Krab pizza is the pizza for you and me. The Krusty Krab pizza is the pizza, absolutivally. (Drink sold separately)."
     createModal(desc);
   })
 
   item3Name.textContent = "Appetizer";
-  item3Photo.src = "../assets/images/appetizer.jpg";
+  item3Photo.src = "assets/images/appetizer.jpg";
   item3Button.addEventListener("click", () => {
     let desc = "Manager's special. Prepared by former... uh, \"crew member\" of the S.S. Gourmet."
     createModal(desc);

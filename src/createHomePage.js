@@ -5,7 +5,7 @@ function createHomePage() {
 
   headline.textContent = "My 5-Star Restaurant";
 
-  image.src = "../assets/images/Squilliam_Returns_025.jpg";
+  image.src = "assets/images/Squilliam_Returns_025.jpg";
   image.alt = "Squilliam Fancyson shirtless";
   image.classList.add("feature-image");
 

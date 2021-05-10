@@ -10,7 +10,7 @@ function createContact() {
   scream.classList.add("scream");
   scream.textContent = "WE THREW OUT HIS NAME!";
 
-  image.src = "../assets/images/we_threw_out_his_name.jpg";
+  image.src = "assets/images/we_threw_out_his_name.jpg";
   image.alt = "Spongebob's office on fire."
   image.classList.add("feature-image");
 
