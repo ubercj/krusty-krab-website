@@ -2,17 +2,37 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="../assets/stylesheets/main.css">
     <title>Restaurant</title>
   </head>
 
   <body>
-    <h1>5-Star Restaurant</h1>
+    <nav>
+      <div id="home" class="tabs">
+        <h2>Home</h2>
+      </div>
+      <div id="menu" class="tabs">
+        <h2>Menu</h2>
+      </div>
+      <div id="specials" class="tabs">
+        <h2>Specials</h2>
+      </div>
+      <div id="reservations" class="tabs">
+        <h2>Reservations</h2>
+      </div>
+      <div id="contact" class="tabs">
+        <h2>Contact</h2>
+      </div>
+    </nav>
 
-    <img src="assets/Squilliam_Returns_025.jpg" alt="Squilliam Fancyson shirtless">
-
-    <p>From our menu tonight, might I recommend the Krabby Newburg? We take the finest cuts of aged, imported kelp, stuff them with herbs from our garden, wrap them in parchment with our award-winning shallot tapenade, slow-roast them for six hours in our wood-fired, clay-filled oven, or kiva, and serve them with a garnish of wilted coral on a mahogany plank.</p>
-
-    <div id="content"></div>
+    <section class="main">
+      <div class="vert-container">
+        <div id="content"></div>
+        <footer class="fine-print">
+          No refunds. No exceptions.
+        </footer>
+      </div>
+    </section>
 
     <script src="main.js"></script>
   </body>
