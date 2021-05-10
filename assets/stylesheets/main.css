@@ -1,0 +1,290 @@
+/* 
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com 
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* ===================================================================
+=================================================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
+body {
+  background: rgb(65, 82, 175) center/90% url(../images/five_star_restaurant.jpg) no-repeat;
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*========================
+Text Elements
+========================*/
+h1 {
+  font-size: 2rem;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+h2 {
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+}
+
+.fine-print {
+  font-size: .8rem;
+  margin-top: 88px;
+  margin-bottom: 10px;
+}
+
+.scream {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+a {
+  color: white;
+  margin-bottom: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/*========================
+Recurring Elements
+========================*/
+button {
+  font-family: inherit;
+  font-size: 1rem;
+  height: 24px;
+  border: 1px solid black;
+  border-radius: 3px;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: grey;
+}
+
+nav {
+  height: 40px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: grey;
+  color: white;
+  border-bottom: 1px solid #ff9;
+} 
+
+.tabs {
+  height: 100%;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabs:hover {
+  background-color: rgb(95, 95, 95);
+  cursor: pointer;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(77, 77, 77, 0.795);
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+
+.vert-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 70%;
+}
+
+.feature-image {
+  width: 500px;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+/*========================
+Menu
+========================*/
+.menu-item,
+.modal {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border: 1px solid grey;
+  border-radius: 3px;
+  flex: 1;
+  padding: 20px;
+  margin: 10px;
+}
+
+.menu-item {
+  background-color: blanchedalmond;
+  color: black;
+}
+
+.menu-item img {
+  width: 200px;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.modal {
+  z-index: 1;
+  position: absolute;
+  left: 25%;
+  height: 200px;
+  width: 50%;
+  background-color: rgba(138, 148, 236, 0.966);
+  color: black;
+  padding: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+/*========================
+Reservations
+========================*/
+.photo-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 22px;
+  margin-bottom: 22px;
+}
+
+.photo-box img {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.disclaimer {
+  margin-top: 20px;
+  font-size: .7rem;
+}
